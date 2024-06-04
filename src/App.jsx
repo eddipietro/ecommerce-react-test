@@ -7,8 +7,10 @@ import Venta from "./components/Venta/Venta";
 import { HashRouter, Route, Routes } from "react-router-dom";
 import CartCustomProvider from "./context/CartContext";
 import WhatsAppButton from "./components/whatsApp/whatsApp";
+import Banner from "./components/Banner/Banner";
 
 function App() {
+  const videoUrl = process.env.PUBLIC_URL + '/videos/mi-video.mp4';
   return (
     <HashRouter>
       <CartCustomProvider>
@@ -16,7 +18,12 @@ function App() {
         <Routes>
           <Route
             path="/"
-            element={<ItemListContainer mensaje="Productos" />}
+            element={
+              <>
+                <Banner videoUrl={videoUrl} />
+                <ItemListContainer mensaje="Productos" />
+              </>
+            }
           />
           <Route path="/category/:categoryId" element={<ItemListContainer />} />
           <Route path="/detail/:id" element={<ItemDetailContainer />} />

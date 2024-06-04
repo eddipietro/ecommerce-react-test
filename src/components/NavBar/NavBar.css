@@ -6,7 +6,7 @@
   padding: 0 1rem;
   justify-content: space-between;
   list-style-type: none;
-  height: 7rem;
+  height: 10rem;
   line-height: 1.3rem;
 }
 .nav-container {
@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: space-between;
   position: relative;
-  padding: 0 10px; /* Ajusta el padding según sea necesario */
+  padding: 55px; /* Ajusta el padding según sea necesario */
 }
 
 .nav-items {
@@ -38,7 +38,8 @@ a:hover {
 }
 
 .logo {
-  height: 180px; /* Ajuste para pantallas más pequeñas */
+  
+  height: 120px; /* Ajuste para pantallas más pequeñas */
   width: auto; /* Ajuste para pantallas más pequeñas */
 }
 

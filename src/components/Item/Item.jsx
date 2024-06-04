@@ -11,9 +11,9 @@ const Item = ({ product }) => {
         <p className="item-precio">
           $ <span>{product.precio}</span>
         </p>
-        <p className="item-stock">
+        {/* <p className="item-stock">
           Stock: <span>{product.stock}</span>
-        </p>
+        </p> */}
         <div className="item-button">
           {product.stock === 0 ? (
             <div>

@@ -1,0 +1,18 @@
+/* Banner.css */
+.banner-container {
+  width: 100%;            /* Ocupa el 100% del ancho de la pantalla */
+  height: 500px;          /* Altura fija para que el banner sea más ancho que alto */
+  position: relative;     /* Permite posicionar el video absolutamente dentro del contenedor */
+  overflow: hidden;       /* Oculta cualquier contenido que se desborde */
+  margin-bottom: 0;       /* Asegura que no haya margen inferior */
+}
+
+.banner-video {
+  position: absolute;     /* Posición absoluta para centrar el video */
+  top: 50%;               /* Centra verticalmente */
+  left: 50%;              /* Centra horizontalmente */
+  width: 100%;            /* Ocupa el 100% del ancho del contenedor */
+  height: auto;           /* Ajusta la altura automáticamente */
+  transform: translate(-50%, -50%); /* Centra el video usando transform */
+  object-fit: cover;      /* Ajusta el tamaño del video para cubrir el contenedor */
+}

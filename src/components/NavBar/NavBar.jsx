@@ -7,52 +7,40 @@ import { Link } from "react-router-dom";
 
 
 
-
 const categories = [
   {
     id: 1,
-    path: "/category/Bombillas",
-    name: "Bombillas",
+    path: "/category/Casamientos",
+    name: "Casamientos",
   },  {
     id: 2,
-    path: "/category/Canastas Materas",
-    name: "Canastas Materas",
+    path: "/category/Cumpleaños",
+    name: "Cumpleaños",
   },
   {
     id: 3,
-    path: "/category/Cayetana por el Mundo",
-    name: "Cayetana por el Mundo",
+    path: "/category/Despedidas",
+    name: "Despedidas",
   },
   {
     id: 4,
-    path: "/category/Ferias",
-    name: "Ferias",
-  },
-  {
+    path: "/category/Baby Showes",
+    name: "Baby Showes",
+  }, 
+   {
     id: 5,
-    path: "/category/Mates",
-    name: "Mates",
-  },  
+    path: "/category/Festivales",
+    name: "Festivales",
+  }, 
   {
     id: 6,
-    path: "/category/Mates personalizados",
-    name: "Mates personalizados",
-  },
+    path: "/category/Nosotros",
+    name: "Nosotros",
+  },  
   {
     id: 7,
-    path: "/category/Porta mates",
-    name: "Porta mates",
-  },  
-
-  {
-    id: 8,
-    path: "/category/Sets Materos",
-    name: "Sets Materos",
-  },  
-  {
-    id: 9,
-    path: "/category/Termos",
-    name: "Termos",
+    path: "/category/Contacto",
+    name: "Contacto",
   }
 
   
@@ -69,7 +57,7 @@ const NavBar = () => {
     <section className={`nav ${menuOpen ? 'menu-open' : ''}`}>
       <div className="nav-container" id="nav-container">
         <Link to="/">
-          <img className="logo" src="./caye-removebg-preview.png" alt="cayetana" />
+          <img className="logo" src="./karen-logo.png" alt="karenRomeroPH" />
         </Link>
 
         <div className={`nav-icons ${menuOpen ? 'center-menu' : ''}`}>

@@ -61,7 +61,7 @@ const ItemListContainer = ({ mensaje }) => {
         <img src="osito-matero.gif" className="gif"  alt="Cargando" />
       ) : (
         <>
-     <h2 className="reboteIn_izquierda">{mensaje}{categoryId} </h2>
+   {  <h2 >{mensaje}{categoryId} </h2> }
 
           <ItemList productList={productList} />
         </>
